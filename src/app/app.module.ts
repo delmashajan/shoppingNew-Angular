@@ -7,13 +7,15 @@ import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { FormsModule } from '@angular/forms';
 import { UserLoginComponent } from './user-login/user-login.component';
 import { UserRegisterComponent } from './user-register/user-register.component';
+import { AddProductComponent } from './add-product/add-product.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AdminLoginComponent,
     UserLoginComponent,
-    UserRegisterComponent
+    UserRegisterComponent,
+    AddProductComponent
   ],
   imports: [
     BrowserModule,
